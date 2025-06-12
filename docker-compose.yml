@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: freight
+      POSTGRES_USER: freight
+      POSTGRES_PASSWORD: freight
+    ports: ["5432:5432"]
+  web:
+    build: .
+    ports: ["8000:8000"]
+    volumes: [".:/app"]
