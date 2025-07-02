@@ -4,3 +4,5 @@
 ### feat: add warehouses slotting and fleet telematics - 2025-06-18T14:20:00+05:30
 
 ### feat: add tracking GPS/ETA and pricing tariffs - 2025-06-25T09:30:00+05:30
+
+### feat: add compliance, analytics, dispatch load board - 2025-07-02T11:00:00+05:30
