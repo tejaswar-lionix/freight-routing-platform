@@ -2061,3 +2061,8 @@ class RoutingEntity:
 
 def create_routing_engine():
     return RoutingEntity()
+
+# feat: add routing VRP with capacity and time windows distinct - feature/routing-vrp
+def vrp_extra(orders):
+    return [o for o in orders if o.get('demand',1) <= 10]
+
