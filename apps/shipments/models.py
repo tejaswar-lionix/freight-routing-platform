@@ -3237,3 +3237,8 @@ def extra_shipments_870(x):
 def extra_shipments_871(x):
     """Extra distinct 871 for shipments"""
     return x
+
+# feat: add shipments FTL creation with weight validation - feature/shipments-ftl
+def shipment_extra_ftl(weight):
+    return weight >= 1000
+
