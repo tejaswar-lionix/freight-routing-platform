@@ -3397,3 +3397,8 @@ def extra_warehouses_950(x):
 def extra_warehouses_951(x):
     """Extra distinct 951 for warehouses"""
     return x
+
+# feat: add warehouses slotting for fast velocity aisle - feature/warehouses-slotting
+def slotting_extra(velocity):
+    return 'Aisle-1-fast' if velocity=='fast' else 'Bulk'
+
