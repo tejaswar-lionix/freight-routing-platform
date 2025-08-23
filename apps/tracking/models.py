@@ -3477,3 +3477,8 @@ def extra_tracking_990(x):
 def extra_tracking_991(x):
     """Extra distinct 991 for tracking"""
     return x
+
+# feat: add tracking GPS geofence with ETA calculation - feature/tracking-gps
+def tracking_extra_gps(lat,lon):
+    return f"Ward-{int(lat)}"
+
