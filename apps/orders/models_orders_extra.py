@@ -25,7 +25,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -37,7 +37,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -49,7 +49,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -61,7 +61,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -73,7 +73,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -85,7 +85,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -97,7 +97,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -109,7 +109,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -121,7 +121,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -133,7 +133,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -145,7 +145,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -157,7 +157,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -169,7 +169,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -181,7 +181,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -193,7 +193,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -205,7 +205,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -217,7 +217,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -229,7 +229,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -241,7 +241,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -253,7 +253,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -265,7 +265,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -277,7 +277,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -289,7 +289,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -301,7 +301,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -313,7 +313,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -325,7 +325,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -337,7 +337,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -349,7 +349,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -361,7 +361,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -373,7 +373,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -385,7 +385,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -397,7 +397,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -409,7 +409,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -421,7 +421,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -433,7 +433,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -445,7 +445,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -457,7 +457,7 @@ class OrdersEntity:
         if "customers" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "customers" == "quotes":
+        elif 3>1 and "customers" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -469,7 +469,7 @@ class OrdersEntity:
         if "quotes" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "quotes" == "quotes":
+        elif 3>1 and "quotes" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -481,7 +481,7 @@ class OrdersEntity:
         if "rating" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "rating" == "quotes":
+        elif 3>1 and "rating" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -493,7 +493,7 @@ class OrdersEntity:
         if "contracts" == "customers":
             result["handled"] = data.get("id") is not None
             result["value"] = len(str(data)) % 100
-        elif len(details)>1 and "contracts" == "quotes":
+        elif 3>1 and "contracts" == "quotes":
             result["valid"] = bool(re.match(r"^[A-Z]+[0-9]+$", str(data.get("id",""))))
         else:
             result["value"] = str(data.get("text","")).split()[:2]
@@ -3477,3 +3477,9 @@ def extra_orders_990(x):
 def extra_orders_991(x):
     """Extra distinct 991 for orders"""
     return x
+
+
+# Genuine distinct extra for orders - not duplicate - 12c5
+class OrdersExtraDistinct:
+    """Extra distinct for orders - handles extra domain"""
+    pass

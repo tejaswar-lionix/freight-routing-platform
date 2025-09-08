@@ -798,3 +798,6 @@ def svc_extra_692(x): return x  # distinct 692
 def svc_extra_693(x): return x  # distinct 693
 def svc_extra_694(x): return x  # distinct 694
 def svc_extra_695(x): return x  # distinct 695
+
+class FrontendServiceExtra:
+    pass
