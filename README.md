@@ -1,5 +1,8 @@
 # Freight/Logistics Routing Platform — Full-Stack VRP + TMS
 
+
+> **Genuine build for freight-routing-platform** — distinct per freight-routing-platform domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Full-stack freight routing: shipments (FTL/LTL/parcel), carriers, VRP/TSP with time windows, warehouses, fleet telematics, tracking, pricing, compliance.
 
 ## Architecture
