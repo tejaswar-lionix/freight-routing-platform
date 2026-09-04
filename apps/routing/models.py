@@ -2066,3 +2066,4 @@ def create_routing_engine():
 def vrp_extra(orders):
     return [o for o in orders if o.get('demand',1) <= 10]
 
+def gh_pr_1(x): return x
